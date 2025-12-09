@@ -7,7 +7,7 @@ public class Assighment2 {
 
         Scanner console = new Scanner(System.in);
 
-        // ---------- Task 1 ----------
+        //Task1
         System.out.println("Task 1:");
         System.out.print("Enter outside temperature: ");
         int temp = console.nextInt();
@@ -16,9 +16,9 @@ public class Assighment2 {
         else
             System.out.println("it's warm outside.");
 
-        // ---------- Task 2 ----------
+        //Task 2
         System.out.println("\nTask 2:");
-        console.nextLine(); // clear buffer
+        console.nextLine();
         System.out.print("Enter your name: ");
         String name = console.nextLine();
         System.out.print("Enter your age: ");
@@ -26,7 +26,7 @@ public class Assighment2 {
         if (age >= 18 && age <= 28)
             System.out.println(name + ", come to the military registration and enlistment office");
 
-        // ---------- Task 3 ----------
+        //Task3
         System.out.println("\nTask 3:");
         System.out.print("Enter body temperature: ");
         double bodyTemp = console.nextDouble();
@@ -39,14 +39,14 @@ public class Assighment2 {
         else
             System.out.println("Body temperature is normal");
 
-        // ---------- Task 4 ----------
+        //Task4
         System.out.println("\nTask 4:");
         System.out.print("Enter age: ");
         int a = console.nextInt();
         if (a < 20 || a > 60)
             System.out.println("you don’t have to work.");
 
-        // ---------- Task 5 ----------
+        //Task5
         System.out.println("\nTask 5:");
         String quote = "I will never work for pennies.";
         int count = 0;
@@ -55,7 +55,7 @@ public class Assighment2 {
             count++;
         }
 
-        // ---------- Task 6 ----------
+        //Task6
         System.out.println("\nTask 6:");
         console.nextLine(); // clear buffer
         int sum = 0;
@@ -73,7 +73,7 @@ public class Assighment2 {
         }
         System.out.println("Sum = " + sum);
 
-        // ---------- Task 7 ----------
+        //Task7
         System.out.println("\nTask 7:");
         int row = 0;
         while (row < 5) {
@@ -86,7 +86,7 @@ public class Assighment2 {
             row++;
         }
 
-        // ---------- Task 8 ----------
+        //Task8
         System.out.println("\nTask 8:");
         int i = 1;
         int total = 0;
@@ -100,14 +100,14 @@ public class Assighment2 {
         }
         System.out.println("Sum of numbers from 1 to 100 not divisible by 3 = " + total);
 
-        // ---------- Task 9 ----------
+        //Task9
         System.out.println("\nTask 9:");
         for (int j = 1; j <= 15; j++) {
             if (j % 2 == 0)
                 System.out.println(j);
         }
 
-        // ---------- Task 10 ----------
+        //Task10
         System.out.println("\nTask 10:");
         System.out.print("Enter start: ");
         int start = console.nextInt();
@@ -123,7 +123,7 @@ public class Assighment2 {
         }
         System.out.println("Sum = " + resultSum);
 
-        // ---------- Task 11 ----------
+        //Task11
         System.out.println("\nTask 11:");
         for (int rowT = 1; rowT <= 10; rowT++) {
             for (int colT = 1; colT <= rowT; colT++) {
