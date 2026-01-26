@@ -1,0 +1,13 @@
+package patterns.task10.builders;
+
+import patterns.task10.PizzaType;
+
+public interface Builder {
+    void setType(PizzaType type);
+
+    void setDough(String dough);
+
+    void setSauce(String sauce);
+
+    void setTopping(String topping);
+}
